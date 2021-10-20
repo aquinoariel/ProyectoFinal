@@ -1,0 +1,54 @@
+@mixin cajas {
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 20px;
+        margin-bottom: 20px;
+}
+
+main{
+    section{
+        .cuentatext{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 30px;
+            margin-left: 510px;
+        }
+    }
+    section{
+        form{
+            justify-content: center;
+            display: grid;
+            grid-template-columns: 500px;
+        .actnombre{
+            @include cajas
+        }
+        .actapellido{
+            @include cajas
+        }
+        .actemail{
+            @include cajas
+        }
+        .acttelefono{
+            @include cajas
+        }
+        .actcontra{
+            @include cajas
+        }
+        .actconfirm{
+            @include cajas
+        }
+        .botons{
+            .reset{
+                background-color: black;
+                color: white;
+                width: 150px;
+            }
+            .send{
+                background-color: black;
+                color: white;
+                width: 150px;
+            }
+        }
+      }
+    }
+}

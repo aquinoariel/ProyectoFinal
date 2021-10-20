@@ -1,0 +1,35 @@
+@mixin cajas {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 20px;
+    margin-bottom: 20px;
+}
+
+main{
+    section{
+        .sesiontext{
+            margin-bottom: 20px;
+        }
+    }
+    section{
+        form{
+            justify-content: center;
+            display: grid;
+            grid-template-columns: 500px;
+        .inicemail{
+            @include cajas
+        }
+        .iniccontra{
+            @include cajas
+        }
+        .botons{
+            margin: 0px;
+        }
+        .send{
+            background-color: black;
+            color: white;
+            width: 150px;
+        }
+     }
+  }
+}

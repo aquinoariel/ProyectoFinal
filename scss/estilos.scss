@@ -1,0 +1,314 @@
+$justify: center;
+@import"productos";
+@import"buzos";
+@import"remeras";
+@import"pantalones";
+@import"contacto";
+@import"acercaDe";
+@import"tablaDeMedidas";
+@import"crearCuenta";
+@import"iniciarSesion";
+
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 1px 3px rgb(199, 199, 199);
+    .enlaces{
+        text-decoration: none;
+        margin: 5px;
+        text-transform: uppercase;
+        color: black;
+    }
+    .buscador{
+        padding-left: 150px;
+        padding-top: 20px;
+    }
+    nav{
+        ul{
+        list-style: none;
+        text-decoration: none;
+        li{
+        display: inline-block;
+        position: relative;
+        ul{
+        position: absolute;
+        display: none;
+        li{
+        display: block;
+        }
+        }
+        }
+        }
+        ul{
+        list-style: none;
+        text-decoration: none;
+        li:hover{
+        display: inline-block;
+        position: relative;
+        ul{
+        position: absolute;
+        display: block;
+        li{
+        display: block;
+        }
+        }
+        }
+        }               
+    }
+    .submenu{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+        margin-left: 5px;
+        background-color: white;
+    }
+    .menu2{
+        display: flex;
+        flex-direction: row;
+        padding-left: 1600px;
+        list-style: none;
+        text-decoration: none;
+    }
+    .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: $justify;
+    }
+    nav{
+        ul{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: $justify;
+        list-style: none;
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
+    }
+}
+
+main{
+    padding-top: 250px;
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+    }
+    section{
+        h1{
+            display: flex;
+            flex-direction: row;
+            margin-left: 430px;
+            margin-bottom: 60px;
+        }
+    }
+    section{
+        .contenido{
+            display: grid;
+            grid-template-columns: 500px 500px 500px;
+            grid-template-rows: 550px 550px;
+            margin-left: 50px;
+            margin-bottom: 10px;
+            h3{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            h4{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            .botoncarrito{
+                color: rgb(255, 255, 255);
+                background-color: black;
+                width: 190px;
+                margin-left: 155px;
+                border-radius: 5px;
+            }
+        }
+    }
+    section{
+        div{
+            .losprod{
+                background-color: black;
+                color: white;
+                width: 300px;
+                margin-left: 630px;
+                margin-top: 50px;
+            }
+        }
+    }
+    section{
+        div{
+            a{
+                display: flex;
+                flex-direction: row;
+                justify-content: $justify;
+            }
+        }
+    }
+    section{
+        .instagram{
+            display: grid;
+            grid-template-columns: 50px 200px;
+            grid-template-rows: 0px;
+            margin-left: 650px;
+            margin-top: 200px;
+            font-weight: bold;
+        }
+        .iglog{
+            width: 50px;
+        }
+        .aquara{
+            font-size: 1.6em;
+            margin-right: 60px;
+        }
+    }
+    section{
+           .imagenv{
+               position: absolute;
+               width: 50px;
+               margin-right: 1500px;
+           }
+            .imagtarj{
+            position: absolute;
+            width: 50px;
+            margin-right: 420px;
+           }
+            .imagseg{
+            position: absolute;
+            width: 50px;
+            margin-left: 8px;
+           }
+           .sectiondatos{
+               display: flex;
+               flex-direction: row;
+               margin-top: 10px;
+           }
+           .datosult{
+               display: grid;
+               grid-template-columns: 500px 500px 500px;
+               grid-template-rows: 100px;
+               margin-bottom: 0px;
+               margin-top: 200px;
+               margin-left: 110px;
+           }
+           .textoprimario{
+               font-size: 1.3em;
+               margin-right: 20px;
+               margin-left: 55px;
+               margin-top: 5px;
+               font-weight: bolder;
+           }
+           .textosecundario{
+               margin-left: 55px;
+               font-size: 1em;
+           }
+    }
+}
+footer{
+    background-color: rgb(31, 30, 30);
+    display: grid;
+    grid-template-columns: 300px 300px 300px 400px;
+    grid-template-rows: 50px 200px;
+    padding-left: 400px;
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+    .enlaces{
+        text-decoration: none;
+        color: white;
+    }
+    .mediosPago{
+        padding-right: 150px;
+    }
+    .textmedios{
+        margin-left: 4px;
+        font-size: 1em;
+    }
+    .textenvios{
+        margin-left: 4px;
+        font-size: 1em;
+    }
+    .textcontact{
+        font-size: 1em;
+    }
+    .textredes{
+        font-size: 1em;
+    }
+    .imgenvios{
+        width: 40px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .imgpagos{
+        width: 40px;
+        margin-top: 5px;
+        margin-left: 5px;
+
+    }
+    .imginst{
+        width: 25px;
+    }
+    .copy{
+        position: absolute;
+        font-size: 0.7em;
+        margin-left: 1150px;
+        margin-top: 200px;
+        color: black;
+    }
+}
+}
+@media only screen and (max-width: 768px) {
+    body{
+        width: 1800px;
+        header{
+            .menu2{
+                margin-right: 100px;
+                padding-left: 1450px;
+            }
+        }
+        main{
+            section{
+                h1{
+                    display: flex;
+                    flex-direction: row;
+                    margin-left: 430px;
+                    margin-bottom: 60px;
+                    width: 800px; 
+                }
+            }
+        }
+    }
+    footer{
+        .copy{
+            position: absolute;
+            font-size: 0.7em;
+            margin-left: 1050px;
+            margin-top: 200px;
+            color: black;
+        }
+    }
+}
+@media only screen and (max-width: 1024px) {
+    body{
+        width: 1900px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    body{
+        width: 1900px;
+    }
+}

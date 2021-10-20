@@ -1,0 +1,36 @@
+main{
+    section{
+        margin-left: 180px;
+        .prod{
+            margin-bottom: 20px;
+        }
+        .textoprod2{
+            margin-bottom: 10px;
+        }
+        div{
+            .enlaces{
+                margin-right: 1600px;
+            }
+        }
+    }
+    section{
+        .enlacprod{
+            display: flex;
+            flex-direction: row;
+            margin-right: 1670px;
+            margin-top: 5px;
+        }
+        .enlacprod1{
+            display: flex;
+            flex-direction: row;
+            margin-right: 1650px;
+            margin-top: 5px;
+        }
+        .enlacprod2{
+            display: flex;
+            flex-direction: row;
+            margin-right: 1627px;
+            margin-top: 5px;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+main{
+    section{
+        .textoprincipal{
+            display: flex;
+            flex-direction: row;
+            margin-left: 650px;
+        }
+        .texto{
+            margin-top: 15px;
+            display: grid;
+            grid-template-columns: 900px;
+            margin-left: 350px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+    }
+}

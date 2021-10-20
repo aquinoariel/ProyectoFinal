@@ -1,0 +1,413 @@
+main section {
+  margin-left: 180px; }
+  main section .prod {
+    margin-bottom: 20px; }
+  main section .textoprod2 {
+    margin-bottom: 10px; }
+  main section div .enlaces {
+    margin-right: 1600px; }
+
+main section .enlacprod {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1670px;
+  margin-top: 5px; }
+
+main section .enlacprod1 {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1650px;
+  margin-top: 5px; }
+
+main section .enlacprod2 {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1627px;
+  margin-top: 5px; }
+
+main .productimag {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 500px;
+  padding-left: 200px;
+  margin-bottom: 100px; }
+
+main section .productimag {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 500px;
+  justify-content: center; }
+
+main section .productimag {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 500px;
+  justify-content: center; }
+
+main section .contactotext {
+  margin-bottom: 20px; }
+
+main section form {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 500px; }
+  main section form .formunom {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 20px;
+    margin-bottom: 20px; }
+  main section form .formuape {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 20px;
+    margin-bottom: 20px; }
+  main section form .formuemail {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 20px;
+    margin-bottom: 20px; }
+  main section form .formumsj {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 10px;
+    margin-bottom: 10px; }
+  main section form .botons .reset {
+    background-color: black;
+    color: white;
+    width: 150px; }
+  main section form .botons .send {
+    background-color: black;
+    color: white;
+    width: 150px; }
+
+main section .textoprincipal {
+  display: flex;
+  flex-direction: row;
+  margin-left: 650px; }
+
+main section .texto {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 900px;
+  margin-left: 350px;
+  font-size: 1.5em;
+  font-weight: bold; }
+
+main .section1 .textotalle {
+  display: flex;
+  flex-direction: row;
+  margin-left: 730px; }
+
+main section .tabla {
+  display: grid;
+  grid-template-columns: 140px;
+  margin-left: 710px; }
+
+main .sectionimg div {
+  display: grid;
+  grid-template-columns: 600px;
+  margin-left: 470px; }
+
+main .sectiontext {
+  background-color: grey;
+  color: black;
+  font-size: 1.5em;
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 610px;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+main section .cuentatext {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  margin-left: 510px; }
+
+main section form {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 500px; }
+  main section form .actnombre {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 20px;
+    margin-bottom: 20px; }
+  main section form .actapellido {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 20px;
+    margin-bottom: 20px; }
+  main section form .actemail {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 20px;
+    margin-bottom: 20px; }
+  main section form .acttelefono {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 20px;
+    margin-bottom: 20px; }
+  main section form .actcontra {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 20px;
+    margin-bottom: 20px; }
+  main section form .actconfirm {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 20px;
+    margin-bottom: 20px; }
+  main section form .botons .reset {
+    background-color: black;
+    color: white;
+    width: 150px; }
+  main section form .botons .send {
+    background-color: black;
+    color: white;
+    width: 150px; }
+
+main section .sesiontext {
+  margin-bottom: 20px; }
+
+main section form {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 500px; }
+  main section form .inicemail {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 20px;
+    margin-bottom: 20px; }
+  main section form .iniccontra {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 20px;
+    margin-bottom: 20px; }
+  main section form .botons {
+    margin: 0px; }
+  main section form .send {
+    background-color: black;
+    color: white;
+    width: 150px; }
+
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box; }
+
+body {
+  position: relative;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-family: 'Roboto', sans-serif; }
+  body header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 1px 3px #c7c7c7; }
+    body header .enlaces {
+      text-decoration: none;
+      margin: 5px;
+      text-transform: uppercase;
+      color: black; }
+    body header .buscador {
+      padding-left: 150px;
+      padding-top: 20px; }
+    body header nav ul {
+      list-style: none;
+      text-decoration: none; }
+      body header nav ul li {
+        display: inline-block;
+        position: relative; }
+        body header nav ul li ul {
+          position: absolute;
+          display: none; }
+          body header nav ul li ul li {
+            display: block; }
+    body header nav ul {
+      list-style: none;
+      text-decoration: none; }
+      body header nav ul li:hover {
+        display: inline-block;
+        position: relative; }
+        body header nav ul li:hover ul {
+          position: absolute;
+          display: block; }
+          body header nav ul li:hover ul li {
+            display: block; }
+    body header .submenu {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: black;
+      margin-left: 5px;
+      background-color: white; }
+    body header .menu2 {
+      display: flex;
+      flex-direction: row;
+      padding-left: 1600px;
+      list-style: none;
+      text-decoration: none; }
+    body header .logo {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+    body header nav ul {
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      list-style: none;
+      text-decoration: none;
+      margin-bottom: 5px; }
+  body main {
+    padding-top: 250px; }
+    body main a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: black; }
+    body main section h1 {
+      display: flex;
+      flex-direction: row;
+      margin-left: 430px;
+      margin-bottom: 60px; }
+    body main section .contenido {
+      display: grid;
+      grid-template-columns: 500px 500px 500px;
+      grid-template-rows: 550px 550px;
+      margin-left: 50px;
+      margin-bottom: 10px; }
+      body main section .contenido h3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; }
+      body main section .contenido h4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; }
+      body main section .contenido .botoncarrito {
+        color: white;
+        background-color: black;
+        width: 190px;
+        margin-left: 155px;
+        border-radius: 5px; }
+    body main section div .losprod {
+      background-color: black;
+      color: white;
+      width: 300px;
+      margin-left: 630px;
+      margin-top: 50px; }
+    body main section div a {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+    body main section .instagram {
+      display: grid;
+      grid-template-columns: 50px 200px;
+      grid-template-rows: 0px;
+      margin-left: 650px;
+      margin-top: 200px;
+      font-weight: bold; }
+    body main section .iglog {
+      width: 50px; }
+    body main section .aquara {
+      font-size: 1.6em;
+      margin-right: 60px; }
+    body main section .imagenv {
+      position: absolute;
+      width: 50px;
+      margin-right: 1500px; }
+    body main section .imagtarj {
+      position: absolute;
+      width: 50px;
+      margin-right: 420px; }
+    body main section .imagseg {
+      position: absolute;
+      width: 50px;
+      margin-left: 8px; }
+    body main section .sectiondatos {
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px; }
+    body main section .datosult {
+      display: grid;
+      grid-template-columns: 500px 500px 500px;
+      grid-template-rows: 100px;
+      margin-bottom: 0px;
+      margin-top: 200px;
+      margin-left: 110px; }
+    body main section .textoprimario {
+      font-size: 1.3em;
+      margin-right: 20px;
+      margin-left: 55px;
+      margin-top: 5px;
+      font-weight: bolder; }
+    body main section .textosecundario {
+      margin-left: 55px;
+      font-size: 1em; }
+  body footer {
+    background-color: #1f1e1e;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 400px;
+    grid-template-rows: 50px 200px;
+    padding-left: 400px;
+    padding-top: 10px;
+    color: white; }
+    body footer .enlaces {
+      text-decoration: none;
+      color: white; }
+    body footer .mediosPago {
+      padding-right: 150px; }
+    body footer .textmedios {
+      margin-left: 4px;
+      font-size: 1em; }
+    body footer .textenvios {
+      margin-left: 4px;
+      font-size: 1em; }
+    body footer .textcontact {
+      font-size: 1em; }
+    body footer .textredes {
+      font-size: 1em; }
+    body footer .imgenvios {
+      width: 40px;
+      margin-top: 5px;
+      margin-left: 5px; }
+    body footer .imgpagos {
+      width: 40px;
+      margin-top: 5px;
+      margin-left: 5px; }
+    body footer .imginst {
+      width: 25px; }
+    body footer .copy {
+      position: absolute;
+      font-size: 0.7em;
+      margin-left: 1150px;
+      margin-top: 200px;
+      color: black; }
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 1800px; }
+    body header .menu2 {
+      margin-right: 100px;
+      padding-left: 1450px; }
+    body main section h1 {
+      display: flex;
+      flex-direction: row;
+      margin-left: 430px;
+      margin-bottom: 60px;
+      width: 800px; }
+  footer .copy {
+    position: absolute;
+    font-size: 0.7em;
+    margin-left: 1050px;
+    margin-top: 200px;
+    color: black; } }
+
+@media only screen and (max-width: 1024px) {
+  body {
+    width: 1900px; } }
+
+@media only screen and (min-width: 1024px) {
+  body {
+    width: 1900px; } }
